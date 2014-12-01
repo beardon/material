@@ -1,0 +1,39 @@
+$theme-name: 'isrealtor';
+// Named color palettes
+$my-color: (
+        '50': #b0b0a9,
+        '100': #8f8f88,
+        '200': #7f7f78,
+        '300': #6c6c65,
+        '400': #5d5d56,
+        '500': #4c4c45,
+        '600': #3c3c35,
+        '700': #2d2d26,
+        '800': #1d1d18,
+        '900': #1b1b16,
+        'A100': #696962,
+        'A200': #5b5b54,
+        'A400': #3f3f38,
+        'A700': #3f3f38
+);
+$forest-green: (
+        '50': #d0f8ce,
+        '100': #a3e9a4,
+        '200': #72d572,
+        '300': #42bd41,
+        '400': #2baf2b,
+        '500': #259b24,
+        '600': #0a8f08,
+        '700': #0a7e07,
+        '800': #056f00,
+        '900': #0d5302,
+        'A100': #a2f78d,
+        'A200': #5af158,
+        'A400': #14e715,
+        'A700': #12c700
+);
+$primary-color-palette: $my-color;  // set the primary color palette for this theme
+$background-color-base: #f4f4f4;
+$checkbox-color-palette: $forest-green; // set the 'forest green' theme for the checkbox only
+$tabs-color-palette: $forest-green; // set the 'indigo' theme for the tabs only
+$primary-color-palette-contrast-color: #f4f4f4;
